@@ -28,12 +28,10 @@ The chatbot helps customers with **orders, deliveries, refunds, returns, and mor
 └── README.md # Documentation
 
 
----
-
 # 🛠️ Installation & Setup
 
 # 1. Clone Repository
-```bash
+
 git clone https://github.com/your-username/Foodmart-chatbot.git
 
 cd Foodmart-chatbot
@@ -60,5 +58,26 @@ cd Foodmart-chatbot
 •	Copy your Agent ID.
 
 •	Replace the agent-id inside app.py with your own:
+
+# 🚀 Deployment
+You can deploy the app to:
+
+•	Streamlit Cloud (free & simple)
+
+•	Render, Heroku, or Google Cloud Run
+________________________________________
+# 📌 Tech Stack
+•	Streamlit – Web app framework
+
+•	Dialogflow ES – Conversational AI platform
+________________________________________
+# 📖 Future Enhancements
+•	📊 Logging user queries & responses for analytics.
+
+•	🌍 Multilingual support.
+
+•	🔗 Connect with databases (e.g., MySQL, Firebase) for real-time order tracking.
+
+
 
 
