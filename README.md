@@ -38,10 +38,27 @@ git clone https://github.com/your-username/Foodmart-chatbot.git
 
 cd Foodmart-chatbot
 
-# Create Virtual Environment (Recommended) 
+# 2. Create Virtual Environment (Recommended) 
 •	python -m venv venv 
 •	venv\Scripts\activate # On Windows source 
 •	venv/bin/activate # On Mac/Linux
 
+# 3.Install Dependencies
+
+•	pip install -r requirements.txt
+
+3.	Run Streamlit App
+•	streamlit run app.py
+       or if Streamlit isn’t on PATH:
+•	python -m streamlit run app.py
+
+# ⚙️ Configuration 
+•	Go to Dialogflow ES Console.
+
+•	Enable Dialogflow Messenger under Integrations.
+
+•	Copy your Agent ID.
+
+•	Replace the agent-id inside app.py with your own:
 
 
