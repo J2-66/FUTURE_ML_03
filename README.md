@@ -38,7 +38,9 @@ cd Foodmart-chatbot
 
 # 2. Create Virtual Environment (Recommended) 
 •	python -m venv venv 
-•	venv\Scripts\activate # On Windows source 
+
+•	venv\Scripts\activate # On Windows source
+
 •	venv/bin/activate # On Mac/Linux
 
 # 3.Install Dependencies
@@ -47,7 +49,9 @@ cd Foodmart-chatbot
 
 3.	Run Streamlit App
 •	streamlit run app.py
-       or if Streamlit isn’t on PATH:
+
+   or if Streamlit isn’t on PATH:
+  	
 •	python -m streamlit run app.py
 
 # ⚙️ Configuration 
