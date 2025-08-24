@@ -1,2 +1,47 @@
 # FUTURE_ML_03
 I create a chatbot—a virtual assistant that answers questions, helps customers, and even responds automatically 24/7. This is the kind of tool used on websites like Amazon, Flipkart, and Zomato to support users instantly.
+
+# 🛍️ Foodmart – Customer Support Chatbot
+
+An AI-powered **customer support chatbot** built with **Dialogflow Messenger** and **Streamlit**.  
+
+The chatbot helps customers with **orders, deliveries, refunds, returns, and more** — directly from a web app.
+---
+# 🚀 Features
+- 🤖 **Dialogflow Messenger Integration** – conversational AI powered by Google Dialogflow ES.
+- 
+- 🎨 **Custom Dark Mode UI** with Streamlit styling.
+- 
+- 💬 **Customer Queries** about orders, refunds, returns, and general support. 
+
+- ⚡ Lightweight – no backend required, runs fully in Streamlit.
+  
+---
+# 📂 Project Structure
+
+├── app.py # Main Streamlit app
+
+├── requirements.txt # Project dependencies
+
+├── devcontainer.json # Devcontainer setup for Codespaces/VSCode
+
+└── README.md # Documentation
+
+
+---
+
+# 🛠️ Installation & Setup
+
+# 1. Clone Repository
+```bash
+git clone https://github.com/your-username/Foodmart-chatbot.git
+
+cd Foodmart-chatbot
+
+# Create Virtual Environment (Recommended) 
+•	python -m venv venv 
+•	venv\Scripts\activate # On Windows source 
+•	venv/bin/activate # On Mac/Linux
+
+
+
